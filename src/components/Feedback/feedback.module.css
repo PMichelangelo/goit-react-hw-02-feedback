@@ -30,6 +30,12 @@
   margin: 0 15px;
   border-radius: 10px;
   font-size: 15px;
+  cursor: pointer;
+  transition: 300ms ease-in-out;
+}
+
+.btn:hover {
+  transform: scale(1.1);
 }
 
 .notification {
